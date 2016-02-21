@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=$OPENSHIFT_REPO_DIR/ArchiveClientLibrary-0.1-SNAPSHOT.jar -DgroupId=org.transformativeworks -DartifactId=ArchiveClientLibrary -Dversion=0.1-SNAPSHOT -Dpackaging=jar

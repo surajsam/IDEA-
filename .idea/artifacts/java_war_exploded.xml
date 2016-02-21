@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="java:war exploded">
+    <output-path>$PROJECT_DIR$/target/java</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="java/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="java" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.eclipse.mylyn.github:org.eclipse.egit.github.core:2.1.5" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.2.2" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.1.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.1.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.1.4" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-client:1.17.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.17.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
